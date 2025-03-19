@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Lists,Images,Tables & Forms</title>
+    </head>
+    <body>
+        <h1>HTML Lists</h1>
+        <h3>Ordered Lists</h3>
+        <ol>
+            <li> Jesse</li>
+            <li> John</li>
+            <li> Joe</li>
+            <li> James</li>
+            <li> Jason</li>
+        </ol>
+        <h3>Un-ordered List</h3>
+        <ul type= "square" > 
+            <li>Kenya</li>
+            <li>S. Africa</li>
+            <li>Nigeria</li>
+            <li> Siera Leon</li>
+        </ul>
+        <h3>Definition List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <DD>Hyeptext Markup Language</DD>
+            <dt>SQL</dt>
+            <DD>Structured Query Language</DD>
+            <dt>KFC</dt>
+            <dd>Kentucky Fried Chicken</dd>   
+        </dl>
+        <h1>HTML Images</h1>
+        <img src="Backyard.jpg" alt="Professional Barber" width="350" height="450">
+        <h1>HTML Tables</h1>
+        <table border="1">
+            <caption>Personal Details</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Country</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>Beatrice Kathambi</td>
+                    <td>beatrice@gmail.com</td>
+                    <td>Mauritania</td>
+                </tr>
+                <tr>
+                    <td>Jesse Thuranira</td>
+                    <td>jessythuranira@gmail.com</td>
+                    <td>Kenya</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+        <h1>HTML Forms</h1>
+        <form action="" method="">
+            <label for="Name"> Name:</label>
+            <input type="text" id="Customer's Name" Name="Customer's Name" required>
+            <br><br>
+            <label for="Gender">Gender:</label>
+            <input type="radio" id="Gender" name="Gender" value="Male">Male
+            <input type="radio" id="Gender" name="Gender" value="Female">Female
+            <br><br>
+            <label for="Location"></label>
+            <input type="checkbox" id="Location" name="Location" Value="Roysambu">Roysambu
+            <input type="checkbox" id="Location" name="Location" Value="Zimmerman">Zimmerman
+            <input type="checkbox" id="Location" name="Location" Value="Kasarani">Kasarani
+        </form>
+        <br><br>
+        <label for="Service">Service:</label>
+        <select name="Service" id="Service">
+            <option>--Select Service--</option>
+            <option value="Haircut">Haircut</option>
+            <option value="Dye">Dye</option>
+            <option value="Dreadlocks">Dreadlocks</option>
+        </select>
+        <br><br>
+        <label for="Description">Details</label>
+        <textarea name="Details" id="Details"></textarea>
+        <br><br>
+        <button>Submit</button>
+        <input type="button" value="Cancel">
+        </body>
+</html>
