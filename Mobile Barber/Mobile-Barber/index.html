@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Barber</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Black background */
+            color: goldenrod; /* Text color for contrast */
+        }
+
+        header {
+            background-color: #000000; /* Black */
+            color: goldenrod;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h2 {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: goldenrod;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section h2 {
+            color: goldenrod; /* Goldenrod for section titles */
+        }
+
+        footer {
+            background-color: #000000; /* Black */
+            color: goldenrod;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #chatbox {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            background-color: goldenrod;
+            color: #000000; /* Black */
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #chatbox h3 {
+            margin: 0 0 0.5rem 0;
+        }
+
+        #chatbox p {
+            margin: 0;
+        }
+
+        a {
+            color: goldenrod; /* Goldenrod for links */
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: #ffffff; /* White hover effect for links */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mobile Barber</h1>
+        <h2>Your Call Away Barber</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="overview">
+            <h2>About Us</h2>
+            <p>At Mobile Barber, we bring the barber shop experience to your doorstep. Our skilled barbers provide top-notch grooming services tailored to your needs.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a variety of services including haircuts, shaves, and styling. Check out our <a href="prices.html">prices</a> for more details.</p>
+        </section>
+    </main>
+
+    <div id="chatbox">
+        <h3>Chat with Jesse</h3>
+        <p>Hi! How can I assist you today?</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mobile Barber. All rights reserved.</p>
+        <p>Email: <a href="mailto:info@mobilebarber.com">info@mobilebarber.com</a></p>
+        <p>Phone: <a href="tel:0792907982">0792907982</a></p>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
